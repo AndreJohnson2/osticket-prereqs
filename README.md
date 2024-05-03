@@ -5,11 +5,6 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -22,34 +17,41 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- MySQL
+- VC-redist
+- PHP 7.38.8
+- rewrite
+- PHPManagerFor IIS
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+1. Inside of Windows features enabling CGI to enable IIS.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+(https://github.com/AndreJohnson2/osticket-prereqs/assets/168602796/b0529c2f-322f-49d4-a5f6-725b9540caaa)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+2. Enabling all Common HTTP features to properly install IIS On my Windows VM.  
+
+(https://github.com/AndreJohnson2/osticket-prereqs/assets/168602796/ddaaaf11-af16-4323-b73b-a10fc45140ca)
+
+3. Used IP address to ensure IIS is properly installed. 
+
+(https://github.com/AndreJohnson2/osticket-prereqs/assets/168602796/88481b0b-7e69-4385-b8ff-ae1c473f4563)
+
+4. All prerequisites are properly installed to run osTicket. 
+
+(https://github.com/AndreJohnson2/osticket-prereqs/assets/168602796/f166bc89-2e06-422d-a218-445de3802ad0)
+
+5. Prereqs loading into IIS successfully. 
+
+(https://github.com/AndreJohnson2/osticket-prereqs/assets/168602796/6dd136dd-abcb-48ef-bf97-b3b6f64753af)
+
+6. Created a new database in Heidi to get SQL to get the final steps needed to launch OSticket. 
+
+(https://github.com/AndreJohnson2/osticket-prereqs/assets/168602796/36a454ea-a33c-4f15-9f81-bc7959992d0b)
+
+7. osTicket installation Completion. 
+
+(https://github.com/AndreJohnson2/osticket-prereqs/assets/168602796/646f1f34-a94a-448a-a1fa-306b54e0a89f)
+
+
+   
